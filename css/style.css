@@ -1,0 +1,303 @@
+:root {
+  --primary: #d63721;
+  --bg: hsl(0, 0%, 0%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* width: 1440px; */
+}
+
+.bg-img {
+  background-image: url("../img/image\ 24.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Navbar start */
+.navbar {
+  height: 7.8rem;
+  background-color: #fff;
+  padding: 0;
+  margin: 0 8rem;
+}
+
+.navbar-default {
+  padding: 0;
+}
+
+.navbar .logo {
+  padding: 2rem;
+}
+
+.navbar form {
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 0.5rem;
+  height: 2.75rem;
+  margin: 2rem;
+}
+
+.navbar form input {
+  background-color: #f3f3f3;
+  border: none;
+}
+
+.navbar form label {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: #bbb5b5;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin: 1rem;
+}
+.navbar-nav .nav-item img {
+  height: 4rem;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.navbar .btn {
+  height: 100%;
+  width: 8rem;
+  color: #fff1f0;
+  background-color: var(--primary);
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+/* Navbar end */
+
+/* Hero start */
+.hero {
+  padding: 6rem 0rem 15rem 0;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #2e303f;
+  background-image: url("../img/Rectangle\ 20.png");
+  background-repeat: no-repeat;
+  background-size: 270px 74px;
+  background-position-x: 180px;
+  background-position-y: 5px;
+  padding-top: 1rem;
+}
+
+.hero h1 span {
+  width: 300px;
+  height: 80px;
+  color: #fff;
+}
+
+.hero p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #000;
+  padding: 0.2rem 4rem 0 0;
+}
+
+.hero .img-artwork img {
+  height: 22rem;
+  padding: 0 1.5rem 0 1rem;
+}
+
+.hero .card {
+  background-color: transparent;
+  border: none;
+  padding: 2rem 0 5rem 0.5rem;
+}
+
+.hero .card h1 {
+  color: #818181;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.hero .card .card-title {
+  color: #c24332;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 1.5rem 0 0;
+  line-height: 0.8rem;
+}
+
+.hero .card p {
+  font-weight: 400;
+  padding: 0 8rem 0 0;
+  font-size: 1rem;
+}
+/* Hero end */
+
+/* Kustom start */
+.kustom {
+  background-color: #c24332;
+  padding: 4rem 1rem;
+}
+
+.kustom .deskripsi {
+  padding: 2rem 2rem;
+  background-image: url("../img/Rectangle\ 35.png");
+  background-repeat: no-repeat;
+  background-size: 225px 65px;
+  background-position-x: 12px;
+  background-position-y: 25px;
+}
+
+.kustom h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #fff;
+  line-height: 4rem;
+}
+
+.kustom h1 span {
+  color: #c24332;
+}
+
+.kustom p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.kustom .kustom-button {
+  background-color: #fff;
+  color: #c24332;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 13rem;
+}
+/* Kustom end */
+
+/* Koleksi start */
+.koleksi {
+  /* padding: 5rem 0 1rem 0rem; */
+}
+
+.koleksi .container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.koleksi .row-kontemporer {
+  background-image: url("../img/koleksi-kotemporer.jpg");
+  background-repeat: no-repeat;
+  background-size: 768px 345px;
+  padding: 3rem 0;
+}
+
+.koleksi .row-fine-art {
+  background-image: url("../img/koleksi-fine-art.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 836px 365px;
+  padding: 0 3rem;
+}
+
+.koleksi .card {
+  margin: 3rem;
+  background-color: #c24332;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  width: 32rem;
+  height: 12rem;
+}
+
+.koleksi .card a {
+  color: #c24332;
+  background-color: #f3f3f3;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 13rem;
+  border: none;
+}
+
+.koleksi .card h5 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.koleksi .card p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  padding-right: 3rem;
+}
+/* Koleksi end */
+
+/* Gaya Seni start */
+.gaya-seni {
+  padding: 1rem 1rem;
+}
+
+.gaya-seni .gaya-seni-title {
+  padding: 2rem 0;
+  margin: 1rem 0;
+}
+
+.gaya-seni .gaya-seni-title h6 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.gaya-seni .gaya-seni-title a {
+  color: #c24332;
+  font-weight: 400;
+}
+/* Gaya Seni end */
+
+/* Footer start */
+footer {
+  background-image: url("../img/Frame\ 23.jpg");
+  background-repeat: no-repeat;
+  max-height: 249px;
+  /* padding: 1rem 6rem; */
+  /* max-height: max-content; */
+  /* font-size: 1rem; */
+}
+
+footer .logo img {
+  background-size: cover;
+  padding: 1rem 1rem 1rem 0;
+}
+
+footer .footer-deskripsi {
+  padding: 0 5rem 0 8rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer .pilihan-bank {
+  padding: 0 8rem;
+}
+/* Footer end */
