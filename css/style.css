@@ -69,11 +69,11 @@ html {
 }
 
 .navbar-nav .nav-item svg {
-  fill: #C24332;
+  fill: #c24332;
 }
 
 .navbar-nav .nav-item a:hover {
-  background-color:rgb(214, 55, 33, 0.9);
+  background-color: rgb(214, 55, 33, 0.9);
   color: #fff;
 }
 
@@ -195,6 +195,10 @@ html {
   padding: 4rem 0;
 }
 
+.kustom .row-kustom  {
+  justify-content: center;
+}
+
 .kustom .col-kustom-img {
   text-align: end;
 }
@@ -246,7 +250,6 @@ html {
   padding: 0;
   margin: 0;
 }
-
 
 .koleksi .row-kontemporer {
   background-image: url("../img/koleksi-kotemporer-lg.jpg");
@@ -312,20 +315,28 @@ html {
 /* Koleksi end */
 
 /* Gaya Seni start */
-.gaya-seni .gaya-seni-title, .seniman .seniman-title, .berita-event .berita-event-title {
+.gaya-seni .gaya-seni-title,
+.seniman .seniman-title,
+.berita-event .berita-event-title {
   padding: 0 15rem;
 }
 
-.gaya-seni .gaya-seni-body, .seniman .seniman-body, .berita-event .berita-event-body {
+.gaya-seni .gaya-seni-body,
+.seniman .seniman-body,
+.berita-event .berita-event-body {
   padding: 2rem 10rem;
 }
 
-.gaya-seni .gaya-seni-title h6, .seniman .seniman-title h6, .berita-event .berita-event-title h6 {
+.gaya-seni .gaya-seni-title h6,
+.seniman .seniman-title h6,
+.berita-event .berita-event-title h6 {
   font-weight: 600;
   font-size: 1.2rem;
 }
 
-.gaya-seni .gaya-seni-title a, .seniman .seniman-title a, .berita-event .berita-event-title a {
+.gaya-seni .gaya-seni-title a,
+.seniman .seniman-title a,
+.berita-event .berita-event-title a {
   color: #c24332;
   font-weight: 400;
 }
@@ -359,16 +370,16 @@ footer {
   background-repeat: no-repeat;
   color: #fff;
   margin-top: 5rem;
+  overflow-x: hidden;
 }
 
 footer .row-footer-1 {
-  padding: 1rem 10rem;
+  padding: 1rem 0 1rem 5rem;
 }
 
 footer .row-footer-2 {
   padding: 0 10rem;
 }
-
 
 footer .footer-deskripsi {
   width: 32rem;
@@ -392,11 +403,12 @@ footer a {
   /* Hero end */
 
   /* Gaya Seni start */
-  .gaya-seni .gaya-seni-title, .seniman .seniman-title, .berita-event .berita-event-title {
+  .gaya-seni .gaya-seni-title,
+  .seniman .seniman-title,
+  .berita-event .berita-event-title {
     padding: 0 10rem;
   }
   /* Gaya Seni end */
-  
 }
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
@@ -471,37 +483,42 @@ footer a {
   /* Koleksi end */
 
   /* Gaya Seni start */
-.gaya-seni .gaya-seni-title, .seniman .seniman-title, .berita-event .berita-event-title {
-  padding: 0 5rem;
-}
+  .gaya-seni .gaya-seni-title,
+  .seniman .seniman-title,
+  .berita-event .berita-event-title {
+    padding: 0 5rem;
+  }
 
-.gaya-seni .gaya-seni-body, .seniman .seniman-body, .berita-event .berita-event-body {
-  padding: 2rem 5rem;
-}
+  .gaya-seni .gaya-seni-body,
+  .seniman .seniman-body,
+  .berita-event .berita-event-body {
+    padding: 2rem 5rem;
+  }
 
-/* Gaya Seni end */
+  /* Gaya Seni end */
 
-/* Seniman start */
+  /* Seniman start */
 
-.seniman .seniman-body .card-body p {
-  font-size: 0.8rem;
-}
+  .seniman .seniman-body .card-body p {
+    font-size: 0.8rem;
+  }
 
-.seniman .seniman-body .card-body img {
-  height: 3.5rem;
-}
-/* Seniman end */
+  .seniman .seniman-body .card-body img {
+    height: 3.5rem;
+  }
+  /* Seniman end */
 
-/* Berita Event start */
-.berita-event .berita-event-body p {
-  font-size: 0.7rem;
-}
-/* Berita Event end */
+  /* Berita Event start */
+  .berita-event .berita-event-body p {
+    font-size: 0.7rem;
+  }
+  /* Berita Event end */
 
   /* Footer start */
 
   footer .row-footer-1 {
-    padding: 1rem 5rem;
+    padding: 1rem 0;
+   
   }
 
   footer .row-footer-2 {
@@ -567,15 +584,14 @@ footer a {
 
   /* Seniman start */
 
-.seniman .seniman-body .card-body p {
-  font-size: 0.8rem;
-}
+  .seniman .seniman-body .card-body p {
+    font-size: 0.8rem;
+  }
 
-.seniman .seniman-body .card-body img {
-  height: 3rem;
-}
-/* Seniman end */
-
+  .seniman .seniman-body .card-body img {
+    height: 3rem;
+  }
+  /* Seniman end */
 }
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -680,7 +696,7 @@ footer a {
   .koleksi .col-kontemporer {
     margin-left: 10rem;
   }
-  
+
   .koleksi .col-fine-art {
     margin-right: 10rem;
   }
@@ -693,10 +709,10 @@ footer a {
   /* Seniman end */
 
   /* Berita Event start */
-.berita-event .berita-event-body p {
-  font-size: 0.5rem;
-}
-/* Berita Event end */
+  .berita-event .berita-event-body p {
+    font-size: 0.5rem;
+  }
+  /* Berita Event end */
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
@@ -718,13 +734,10 @@ footer a {
   }
 
   .hero .card .card-title {
-    color: #c24332;
-    font-weight: 600;
     font-size: 1.3rem;
   }
 
   .hero .card p {
-    font-weight: 400;
     font-size: 1rem;
   }
 
@@ -767,7 +780,7 @@ footer a {
   .koleksi .col-kontemporer {
     margin-left: 0;
   }
-  
+
   .koleksi .col-fine-art {
     margin-right: 0;
   }
@@ -777,40 +790,44 @@ footer a {
     width: 25rem;
     height: 11rem;
   }
-  
+
   .koleksi .card-body {
     width: 20rem;
     padding: 1.5rem 0 1.5rem 3rem;
   }
-  
+
   .koleksi .card a {
     font-size: 0.8rem;
     width: 10rem;
   }
-  
+
   .koleksi .card h5 {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  
+
   .koleksi .card p {
     font-size: 1rem;
   }
   /* Koleksi end */
 
   /* Gaya Seni start */
-  .gaya-seni .card, .seniman .card, .berita-event .card {
+  .gaya-seni .card,
+  .seniman .card,
+  .berita-event .card {
     margin: 1rem 0;
   }
   /* Gaya Seni end */
 
   /* Berita Event start */
-.berita-event .berita-event-body p {
-  font-size: 0.8rem;
-}
-/* Berita Event end */
+  .berita-event .berita-event-body p {
+    font-size: 0.8rem;
+  }
+  /* Berita Event end */
 
   /* Footer start */
+  
+
   footer .logo img {
     width: 4rem;
   }
@@ -867,7 +884,8 @@ footer a {
   /* Footer start */
 
   footer .row-footer-1 {
-    padding: 1rem 3rem;
+    padding-left: 2rem;
+
   }
 
   footer .row-footer-2 {
@@ -897,25 +915,44 @@ footer a {
   /* Navbar end */
 
   /* Hero start */
+
   .hero .visi-misi {
-    width: 20rem;
+    width: 15rem;
   }
 
   .hero .visi-misi h1 {
-    font-size: 1.rem;
+    font-size: 1.2rem;
+     background-size: 105px 30px;
+    background-position-x: 70px;
+    background-position-y: 10px;
   }
 
-   .hero .visi-misi p {
+  .hero .visi-misi p {
     font-size: 0.8rem;
   }
 
   .hero .card {
     padding: 0 2rem;
-   }
+  }
 
   .hero .img-artwork img {
     height: 10rem;
-  } 
+    padding: 0 1rem 0 1rem;
+   }
+
+  .hero .card-body {
+    width: 15rem;
+  }
+
+  .hero .card .card-title {
+    font-size: 1rem;
+  }
+
+  .hero .card p {
+    font-size: 0.8rem;
+  }
+
+ 
   /* Hero end */
 
   /* Kustom start */
@@ -924,11 +961,11 @@ footer a {
   }
 
   .kustom .deskripsi {
-    padding: 1rem;
+      padding: 1rem 0 1rem 1rem;
     background-size: 77px 25px;
     background-position-x: 8px;
     background-position-y: 17px;
-    width: 12rem;
+    width: 10rem;
   }
 
   .kustom h1 {
@@ -957,50 +994,117 @@ footer a {
     width: 20rem;
     height: 10rem;
   }
-  
+
   .koleksi .card-body {
     width: 15rem;
     padding: 1rem 0 1rem 2rem;
   }
-  
+
   .koleksi .card a {
     font-size: 0.8rem;
     width: 10rem;
   }
-  
+
   .koleksi .card h5 {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  
+
   .koleksi .card p {
     font-size: 0.8rem;
   }
   /* Koleksi end */
 
   /* Gaya Seni start */
-  .gaya-seni .gaya-seni-title h6, .seniman .seniman-title h6, .berita-event .berita-event-title h6 {
+  .gaya-seni .gaya-seni-title h6,
+  .seniman .seniman-title h6,
+  .berita-event .berita-event-title h6 {
     font-size: 1rem;
   }
 
-  .gaya-seni .gaya-seni-title a, .seniman .seniman-title a, .berita-event .berita-event-title a {
+  .gaya-seni .gaya-seni-title a,
+  .seniman .seniman-title a,
+  .berita-event .berita-event-title a {
     font-size: 0.8rem;
   }
 
-  .gaya-seni .gaya-seni-body, .seniman .seniman-body, .berita-event .berita-event-body {
+  .gaya-seni .gaya-seni-body,
+  .seniman .seniman-body,
+  .berita-event .berita-event-body {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .gaya-seni .gaya-seni-body .card p, .seniman .seniman-body .card p {
+  .gaya-seni .gaya-seni-body .card p,
+  .seniman .seniman-body .card p {
     font-size: 0.8rem;
   }
 
   /* Gaya Seni end */
 
   /* Berita Event start */
-.berita-event .berita-event-body p {
-  font-size: 0.5rem;
+  .berita-event .berita-event-body p {
+    font-size: 0.5rem;
+  }
+  /* Berita Event end */
 }
-/* Berita Event end */
+
+
+@media (max-width: 325px) {
+/* Hero start */
+
+.hero .visi-misi {
+  width: 12rem;
+}
+
+.hero .card {
+  padding: 0 1rem;
+}
+
+.hero .img-artwork img {
+  height: 8rem;
+}
+
+.hero .card-body {
+  width: 10rem;
+}
+.hero p {
+  padding: 0.2rem 1rem 0 0;
+}
+/* Hero end */
+
+/* Kustom start */
+.kustom .container {
+  padding: 0;
+}
+.kustom .row-kustom  {
+  justify-content: start;
+  margin: 0;
+}
+.kustom img {
+  width: 4rem;
+}
+
+.kustom .deskripsi {
+  background-size: 63px 20px;
+  background-position-y: 15px;
+  width: 10rem;
+}
+
+.kustom h1 {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+.kustom p {
+  font-size: 0.6rem;
+}
+
+.kustom .kustom-button {
+  font-size: 0.6rem;
+  width: 8rem;
+}
+/* Kustom end */
+  
+
 }

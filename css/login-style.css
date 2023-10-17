@@ -1,252 +1,335 @@
 :root {
-    --primary: #d63721;
-    --bg: hsl(0, 0%, 0%);
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
+  --primary: #d63721;
+  --bg: hsl(0, 0%, 0%);
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Login section start */
+.login .col-img,
+.signup .col-img {
+  padding: 0;
+}
+
+.login h2,
+.signup h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.login p,
+.signup p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a0a0a0;
+}
+
+.login form .signup form {
+  width: 30rem;
+}
+
+.login form .form-input-email-pass,
+.signup form .form-input-email-pass {
+  margin: 4rem 0;
+}
+
+.login form .form-input-email-pass label,
+.signup form .form-input-email-pass label {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.login form .form-input-email-pass a,
+.signup form .form-input-email-pass a {
+  color: #676767;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.login form .btn,
+.signup form .btn {
+  font-weight: 500;
+  font-size: 1.25rem;
+  background-color: #c24332;
+  color: #fff;
+  width: 100%;
+  height: 3.3rem;
+  margin: 1rem 0;
+}
+
+.login form .btn:hover,
+.signup form .btn:hover {
+  background-color: rgb(194, 67, 50, 0.8);
+  color: #c24332;
+}
+
+.login .row-signup,
+.signup .row-login {
+  padding: 0;
+}
+
+.login .row-signup p,
+.signup .row-login p {
+  font-weight: 300;
+  font-style: italic;
+  color: #c24332;
+  font-size: 1.1rem;
+}
+
+.login .row-signup a,
+.signup .row-login a {
+  color: #c24332;
+}
+
+.login .row-signup a p,
+.signup .row-login a p {
+  font-weight: 600;
+}
+/* Login section end */
+
+/* Media Query */
+
+@media (max-width: 1680px) {
   /* Login section start */
-  .login .col-img {
-    padding: 0;
+  .login .login-input,
+  .signup .signup-input {
+    margin: 3rem 5rem;
+  }
+  /* Login section end */
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  /* Login section start */
+  .login .col-img img,
+  .signup .col-img img {
+    width: 40rem;
   }
 
-  .login h2 {
-    font-weight: 600;
-    font-size: 2.5rem;
+  .login .login-input,
+  .signup .signup-input {
+    margin: 0;
   }
 
-  .login p {
-    font-weight: 400;
-    font-size: 1.1rem;
-    color: #A0A0A0;
+  .login h2,
+  .signup h2 {
+    font-size: 2.2rem;
   }
 
-  .login form {
-    width: 30rem;
+  .login p,
+  .signup p {
+    font-size: 1rem;
   }
 
-  .login form .form-input-email-pass {
+  .login form,
+  .signup form {
+    width: 25rem;
+  }
+
+  .login form .form-input-email-pass,
+  .signup form .form-input-email-pass {
     margin: 4rem 0;
   }
 
-  .login form .form-input-email-pass label {
-    font-weight: 600;
-    font-size: 1.25rem;
+  .login form .form-input-email-pass label,
+  .login form .form-input-email-pass a,
+  .signup form .form-input-email-pass label,
+  .signup form .form-input-email-pass a {
+    font-size: 1rem;
   }
 
-  .login form .form-input-email-pass a {
-    color: #676767;
-    text-decoration: none;
-    font-style: italic;
+  .login form .btn,
+  .signup form .btn {
+    font-size: 1.1rem;
+    height: 3rem;
   }
 
-  .login form button {
-    font-weight: 500;
-    font-size: 1.25rem;
-    background-color: #C24332;
-    color: #fff;
-    width: 100%;
-    height: 3.3rem;
-    margin: 1rem 0;
+  .login .row-signup p,
+  .signup .row-login p {
+    font-size: 0.8rem;
   }
 
-  .login .row-signup  {
-    padding: 0;
-  }
-
-  .login .row-signup p {
-font-weight: 300;
-font-style: italic;
-color: #C24332;
-font-size: 1.1rem;
-  }
-
-  .login .row-signup a {
-    color: #C24332;
-  }
-
-  .login .row-signup a p {
-    font-weight: 600;
-  }
   /* Login section end */
-
-  /* Media Query */
-
-@media (max-width: 1680px) {
-    /* Login section start */
-    /* Login section end */
-    
-  }
-  
-  /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-  @media (max-width: 1399.98px) {
-    /* Login section start */
-    .login .col-img img {
-        width: 40rem;
-      }
-
-      .login h2 {
-        font-size: 2.2rem;
-      }
-    
-      .login p {
-        font-size: 1rem;
-      }
-    
-      .login form {
-        width: 25rem;
-      }
-    
-      .login form .form-input-email-pass {
-        margin: 4rem 0;
-      }
-    
-      .login form .form-input-email-pass label, .login form .form-input-email-pass a {
-        font-size: 1rem;
-      }
-    
-      .login form button {
-        font-size: 1.1rem;
-        height: 3rem;
-      }
-    
-      .login .row-signup p {
-        font-size: 0.8rem;
-      }
-    
-    /* Login section end */
-    
-  }
-  
-  /* // `xl` applies to large devices (desktops, less than 1200px) */
-  @media (max-width: 1199.98px) {
-    /* Login section start */
-    .login .col-img img {
-        width: 30rem;
-      }
-
-      .login h2 {
-        font-size: 2rem;
-      }
-    
-      .login p {
-        font-size: 0.8rem;
-      }
-    
-      .login form {
-        width: 22rem;
-      }
-    
-      .login form .form-input-email-pass {
-        margin: 2rem 0;
-      }
-    
-      .login form .form-input-email-pass label, .login form .form-input-email-pass a {
-        font-size: 0.8rem;
-      }
-
-     
-    
-      .login form button {
-        font-size: 1rem;
-        height: 2.5rem;
-        margin: 0.7rem 0;
-      }
-    
-
-    /* Login section end */
-
-  }
-
-  /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    /* Login section start */
-    .login .col-img img {
-        width: 25rem;
-      }
-
-      .login h2 {
-        font-size: 1.5rem;
-      }
-    
-      .login p {
-        font-size: 0.6rem;
-      }
-    
-      .login form {
-        width: 20rem;
-      }
-    
-      .login form .form-input-email-pass {
-        margin: 1rem 0;
-      }
-    
-      .login form .form-input-email-pass label, .login form .form-input-email-pass a {
-        font-size: 0.6rem;
-      }
-    
-      .login form button {
-        font-size: 0.8rem;
-        height: 2.2rem;
-        margin: 0.5rem 0;
-      }
-    
-      .login .row-signup p {
-        font-size: 0.6rem;
-      }
-    
-    /* Login section end */
 }
-  
-  /* // `md` applies to small devices (landscape phones, less than 768px) */
-  @media (max-width: 767.98px) {
-/* Login section start */
-.login .col-img img {
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  /* Login section start */
+  .login .col-img img,
+  .signup .col-img img {
+    width: 30rem;
+  }
+
+  .login h2,
+  .signup h2 {
+    font-size: 2rem;
+  }
+
+  .login p,
+  .signup p {
+    font-size: 0.8rem;
+  }
+
+  .login form,
+  .signup form {
+    width: 22rem;
+  }
+
+  .login form .form-input-email-pass,
+  .signup form .form-input-email-pass {
+    margin: 2rem 0;
+  }
+
+  .login form .form-input-email-pass label,
+  .login form .form-input-email-pass a,
+  .signup form .form-input-email-pass label,
+  .signup form .form-input-email-pass a {
+    font-size: 0.8rem;
+  }
+
+  .login form .btn,
+  .signup form .btn {
+    font-size: 1rem;
+    height: 2.5rem;
+    margin: 0.7rem 0;
+  }
+
+  /* Login section end */
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* Login section start */
+  .login .col-img img,
+  .signup .col-img img {
+    width: 25rem;
+  }
+
+  .login h2,
+  .signup h2 {
+    font-size: 1.5rem;
+  }
+
+  .login p,
+  .signup p {
+    font-size: 0.6rem;
+  }
+
+  .login form,
+  .signup form {
     width: 20rem;
   }
 
-  .login form {
+  .login form .form-input-email-pass,
+  .signup form .form-input-email-pass {
+    margin: 1rem 0;
+  }
+
+  .login form .form-input-email-pass label,
+  .login form .form-input-email-pass a,
+  .signup form .form-input-email-pass label,
+  .signup form .form-input-email-pass a {
+    font-size: 0.6rem;
+  }
+
+  .login form .btn,
+  .signup form .btn {
+    font-size: 0.8rem;
+    height: 2.2rem;
+    margin: 0.5rem 0;
+  }
+
+  .login .row-signup p,
+  .signup .row-login p {
+    font-size: 0.6rem;
+  }
+
+  /* Login section end */
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* Login section start */
+  .login .row-login,
+  .signup .row-signup {
+    margin: 2rem 0;
+  }
+
+  .login .col-img img,
+  .signup .col-img img {
+    width: 20rem;
+  }
+
+  .login form,
+  .signup form {
     width: 16rem;
   }
-/* Login section end */
+  /* Login section end */
+}
 
-    
-    
+@media (max-width: 680px) {
+  /* Login section start */
+  .login .col-img,
+  .signup .col-img {
+    display: flex;
+    justify-content: center;
   }
 
-  @media (max-width: 680px) {
-    /* Login section start */
-.login .col-img img {
+  .login .login-input,
+  .signup .signup-input {
+    margin: 3rem 0;
+    width: 12rem;
+  }
+
+  .login .col-img img,
+  .signup .col-img img {
     width: 17rem;
   }
 
-/* Login section end */
-  }
+  /* Login section end */
+}
 
-  /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-  @media (max-width: 575.98px) {
-    /* Login Section start */
-    .login .login-input {
-        margin: 3rem 0;
-        
-    }
-    /* Login Section end */
-  }
-  
-  @media (max-width: 496px) {
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Login Section start */
+  /* Login Section end */
+}
 
-    
-   
+@media (max-width: 496px) {
+  /* Login Section start */
+  .login .login-input,
+  .signup .signup-input {
+    margin: 3rem 4rem;
   }
+  /* Login Section end */
+}
+
+@media (max-width: 420px) {
+  /* Login Section start */
+  .login .login-input,
+  .signup .signup-input {
+    margin: 3rem 2rem;
+  }
+  /* Login Section end */
+}
+
+@media (max-width: 340px) {
+  /* Login Section start */
+  .login .login-input,
+  .signup .signup-input {
+    margin: 3rem 0;
+  }
+  /* Login Section end */
+}
