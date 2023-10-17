@@ -195,7 +195,7 @@ html {
   padding: 4rem 0;
 }
 
-.kustom .row-kustom  {
+.kustom .row-kustom {
   justify-content: center;
 }
 
@@ -518,7 +518,6 @@ footer a {
 
   footer .row-footer-1 {
     padding: 1rem 0;
-   
   }
 
   footer .row-footer-2 {
@@ -826,7 +825,6 @@ footer a {
   /* Berita Event end */
 
   /* Footer start */
-  
 
   footer .logo img {
     width: 4rem;
@@ -885,7 +883,6 @@ footer a {
 
   footer .row-footer-1 {
     padding-left: 2rem;
-
   }
 
   footer .row-footer-2 {
@@ -922,7 +919,7 @@ footer a {
 
   .hero .visi-misi h1 {
     font-size: 1.2rem;
-     background-size: 105px 30px;
+    background-size: 105px 30px;
     background-position-x: 70px;
     background-position-y: 10px;
   }
@@ -938,7 +935,7 @@ footer a {
   .hero .img-artwork img {
     height: 10rem;
     padding: 0 1rem 0 1rem;
-   }
+  }
 
   .hero .card-body {
     width: 15rem;
@@ -952,7 +949,6 @@ footer a {
     font-size: 0.8rem;
   }
 
- 
   /* Hero end */
 
   /* Kustom start */
@@ -961,7 +957,7 @@ footer a {
   }
 
   .kustom .deskripsi {
-      padding: 1rem 0 1rem 1rem;
+    padding: 1rem 0 1rem 1rem;
     background-size: 77px 25px;
     background-position-x: 8px;
     background-position-y: 17px;
@@ -1049,62 +1045,59 @@ footer a {
   /* Berita Event end */
 }
 
-
 @media (max-width: 325px) {
-/* Hero start */
+  /* Hero start */
 
-.hero .visi-misi {
-  width: 12rem;
-}
+  .hero .visi-misi {
+    width: 12rem;
+  }
 
-.hero .card {
-  padding: 0 1rem;
-}
+  .hero .card {
+    padding: 0 1rem;
+  }
 
-.hero .img-artwork img {
-  height: 8rem;
-}
+  .hero .img-artwork img {
+    height: 8rem;
+  }
 
-.hero .card-body {
-  width: 10rem;
-}
-.hero p {
-  padding: 0.2rem 1rem 0 0;
-}
-/* Hero end */
+  .hero .card-body {
+    width: 10rem;
+  }
+  .hero p {
+    padding: 0.2rem 1rem 0 0;
+  }
+  /* Hero end */
 
-/* Kustom start */
-.kustom .container {
-  padding: 0;
-}
-.kustom .row-kustom  {
-  justify-content: start;
-  margin: 0;
-}
-.kustom img {
-  width: 4rem;
-}
+  /* Kustom start */
+  .kustom .container {
+    padding: 0;
+  }
+  .kustom .row-kustom {
+    justify-content: start;
+    margin: 0;
+  }
+  .kustom img {
+    width: 4rem;
+  }
 
-.kustom .deskripsi {
-  background-size: 63px 20px;
-  background-position-y: 15px;
-  width: 10rem;
-}
+  .kustom .deskripsi {
+    background-size: 63px 20px;
+    background-position-y: 15px;
+    width: 10rem;
+  }
 
-.kustom h1 {
-  font-size: 0.8rem;
-  line-height: 1.3rem;
-}
+  .kustom h1 {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
 
-.kustom p {
-  font-size: 0.6rem;
-}
+  .kustom p {
+    font-size: 0.6rem;
+  }
 
-.kustom .kustom-button {
-  font-size: 0.6rem;
-  width: 8rem;
-}
-/* Kustom end */
-  
-
+  .kustom .kustom-button {
+    font-size: 0.6rem;
+    width: 8rem;
+  }
+  /* Kustom end */
 }
