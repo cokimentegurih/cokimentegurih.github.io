@@ -36,12 +36,10 @@ html {
 }
 
 .navbar .container {
-  /* width: 100%; */
   height: 100%;
   margin: 0;
   padding: 0;
   display: flex;
-  /* margin-right: 10rem; */
   background-color: #fff;
 }
 
@@ -125,6 +123,10 @@ html {
 
 .hero .row-seniman .card-body .identitas {
   text-align: start;
+}
+
+.hero .row-seniman .card-body .identitas:hover {
+  background-color: rgb(211, 211, 211, 0.5);
 }
 /* Hero Seniman end */
 

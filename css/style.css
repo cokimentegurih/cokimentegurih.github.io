@@ -356,6 +356,10 @@ html {
 .seniman .seniman-body .identitas {
   text-align: start;
 }
+
+.seniman .seniman-body .identitas:hover {
+  background-color: rgb(211, 211, 211, 0.5);
+}
 /* Seniman end */
 
 /* Berita Event start */
