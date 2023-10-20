@@ -1,7 +1,5 @@
 :root {
   --primary: #d63721;
-  --secondary: #c24332;
-
   --bg: hsl(0, 0%, 0%);
 }
 
@@ -18,6 +16,25 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Navbar start */
+.navbar {
+  padding: 0;
+  background-image: url("../img/produk-nav-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 2rem;
+}
+
+.navbar .a-svg {
+  text-align: center;
+  padding: 3rem;
+  /* margin-bottom: 10rem; */
+}
+
+.navbar .a-svg:hover {
+  background-color: rgb(255, 93, 71, 0.5);
+}
+/* Navbar end */
 
 /* Media Query */
 
