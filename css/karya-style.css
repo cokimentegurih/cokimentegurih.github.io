@@ -1,5 +1,6 @@
 :root {
   --primary: #d63721;
+  --secondary: #c24332;
   --bg: hsl(0, 0%, 0%);
 }
 
@@ -28,13 +29,152 @@ html {
 .navbar .a-svg {
   text-align: center;
   padding: 3rem;
-  /* margin-bottom: 10rem; */
 }
 
 .navbar .a-svg:hover {
   background-color: rgb(255, 93, 71, 0.5);
 }
 /* Navbar end */
+
+/* Karya start */
+.karya {
+  padding: 0 7rem;
+}
+
+.karya .card {
+  max-width: fit-content;
+  border: none;
+}
+.karya .card .row-deskripsi {
+  display: flex;
+  justify-content: center;
+}
+
+.karya .row-preview {
+  width: 33.5rem;
+}
+
+.karya .col-preview img {
+  height: 21.25rem;
+}
+
+.karya .row-frame .col-frame {
+  max-width: fit-content;
+}
+
+.karya .card .preview-frame {
+  max-width: fit-content;
+}
+
+.karya .card .card-body {
+  max-width: fit-content;
+}
+
+.karya .card .card-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.karya .card .card-text {
+  font-size: 1.3rem;
+  color: #000;
+}
+
+.karya .card .card-text span {
+  font-weight: 600;
+}
+
+.karya .card .card-harga {
+  font-weight: 700;
+  color: var(--secondary);
+  font-size: 2rem;
+}
+
+.karya .card .row-button .col {
+  max-width: fit-content;
+}
+
+.karya .card .btn {
+  height: 2.5rem;
+}
+
+.karya .card .btn-keranjang {
+  background-color: #ffe1dd;
+  color: var(--secondary);
+  font-weight: 500;
+  font-size: 1rem;
+  border: 0.1rem solid var(--secondary);
+}
+
+.karya .card .btn-keranjang svg {
+  width: 30px;
+  height: 29px;
+}
+
+.karya .card .btn-beli {
+  background-color: var(--secondary);
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/* Karya end */
+
+/* Deskripsi text start */
+.deskripsi {
+  padding: 5rem;
+}
+
+.deskripsi h2 {
+  font-weight: 700;
+  color: var(--secondary);
+  font-size: 1.5rem;
+}
+
+.deskripsi p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #000;
+}
+/* Deskripsi text end */
+
+/* Koleksi start */
+.koleksi h2 {
+  font-weight: 700;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.koleksi .card-body .card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.koleksi .card-body .card-text {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.koleksi .card-body .col-harga {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+.koleksi .card-body .row .col {
+  height: fit-content;
+}
+
+.koleksi .card-body .col-keranjang svg {
+  width: 30px;
+  height: 29px;
+}
+
+.koleksi .img-koleksi img {
+  max-height: 15rem;
+}
+/* Koleksi end */
 
 /* Media Query */
 
@@ -43,23 +183,242 @@ html {
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
+  /* Karya start */
+  .karya .row-preview {
+    width: 30rem;
+  }
+  .karya .col-preview img {
+    height: 18rem;
+  }
+
+  .karya .row-frame .col-frame img {
+    width: 9rem;
+  }
+
+  .karya .card .card-title {
+    font-size: 2.5rem;
+  }
+
+  .karya .card .card-text {
+    font-size: 1.1rem;
+  }
+
+  .karya .card .card-harga {
+    font-size: 1.7rem;
+  }
+
+  .karya .card .btn {
+    height: 2.5rem;
+  }
+  /* Karya end */
+
+  /* Deskripsi text start */
+  .deskripsi h2,
+  .koleksi h2 {
+    font-size: 1.3rem;
+  }
+
+  .deskripsi p {
+    font-size: 1.1rem;
+  }
+  /* Deskripsi text end */
 }
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+  /* Karya start */
+  .karya .row-preview {
+    width: 27rem;
+  }
+  .karya .col-preview img {
+    height: 15rem;
+  }
+
+  .karya .row-frame .col-frame img {
+    width: 7.5rem;
+  }
+
+  .karya .card .card-title {
+    font-size: 2.2rem;
+  }
+
+  .karya .card .card-text {
+    font-size: 1rem;
+  }
+
+  .karya .card .card-harga {
+    font-size: 1.5rem;
+  }
+
+  .karya .card .btn-keranjang {
+    font-size: 0.8rem;
+  }
+
+  .karya .card .btn-beli {
+    font-size: 0.8rem;
+  }
+
+  .karya .card .btn-keranjang svg {
+    width: 27px;
+    height: 26px;
+  }
+  /* Karya end */
+
+  /* Deskripsi text start */
+  .deskripsi h2,
+  .koleksi h2 {
+    font-size: 1.1rem;
+  }
+
+  .deskripsi p {
+    font-size: 1rem;
+  }
+  /* Deskripsi text end */
 }
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  /* Karya start */
+  .karya .row-preview {
+    width: 24rem;
+  }
+
+  .karya .col-preview img {
+    height: 12rem;
+  }
+
+  .karya .row-frame .col-frame img {
+    width: 7rem;
+  }
+
+  .karya .card .card-title {
+    font-size: 1.5rem;
+  }
+
+  .karya .card .card-text {
+    font-size: 0.8rem;
+  }
+
+  .karya .card .card-harga {
+    font-size: 1.2rem;
+  }
+
+  .karya .card .btn {
+    height: 2.2rem;
+    margin: 0.3rem;
+  }
+
+  .karya .card .btn-keranjang {
+    font-size: 0.7rem;
+    width: 11rem;
+  }
+
+  .karya .card .btn-beli {
+    font-size: 0.7rem;
+    width: 6.6rem;
+  }
+
+  .karya .card .btn-keranjang svg {
+    width: 24px;
+    height: 23px;
+  }
+  /* Karya end */
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  /* Karya start */
+  .karya .row-frame {
+    margin: 2rem 0;
+  }
+  /* Karya end */
+
+  /* Deskripsi start */
+  .deskripsi {
+    padding: 2rem 5rem;
+  }
+  /* Deskripsi end */
+
+  /* Koleksi start */
+  .koleksi .card-body .card-title {
+    font-size: 0.8rem;
+  }
+
+  .koleksi .card-body .card-text {
+    font-size: 0.8rem;
+  }
+
+  .koleksi .card-body .col-harga {
+    font-size: 0.8rem;
+  }
+
+  .koleksi .card-body .col-keranjang svg {
+    width: 25px;
+    height: 24px;
+  }
+
+  .koleksi .img-koleksi img {
+    max-height: 10rem;
+  }
+  /* Koleksi end */
+}
+
+@media (max-width: 630px) {
+  /* Karya start */
+  .karya {
+    padding: 0 4rem;
+  }
+  /* Karya end */
+
+  /* Deskripsi start */
+  .deskripsi {
+    padding: 2rem 3rem;
+  }
+  /* Deskripsi end */
 }
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  /* Karya start */
+  .karya {
+    padding: 0 2rem;
+  }
+  /* Karya end */
+
+  /* Deskripsi start */
+  .deskripsi h2,
+  .koleksi h2 {
+    font-size: 1rem;
+  }
+
+  .deskripsi p {
+    font-size: 0.8rem;
+  }
+  /* Deskripsi end */
 }
 
 @media (max-width: 496px) {
+  /* Karya start */
+  .karya .row-preview {
+    width: fit-content;
+  }
+
+  .karya .row-preview {
+    width: 22rem;
+  }
+
+  .karya .col-preview img {
+    height: 10rem;
+  }
+
+  .karya .row-frame .col-frame img {
+    width: 6rem;
+  }
+  /* Karya end */
+
+  /* Deskripsi start */
+  .deskripsi {
+    padding: 2rem 1.5rem;
+  }
+  /* Deskripsi end */
 }
